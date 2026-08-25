@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-triumvirate: "Triumvirate", sans-serif;
+  --font-buttersweet: "Butter Sweet", cursive;
+  --font-gendis: "Gendis Body", sans-serif;
+  --font-heroic: "Heroic Condensed", sans-serif;
+  --font-grillmaster: "Grillmaster", sans-serif;
+  --font-quietsickless: "Quiet Sickless", cursive;
+
+  --color-hud-pink: #ff0055;
+  --color-hud-orange: #ffaa00;
+  --color-hud-blue: #00d4ff;
+  --color-hud-green: #00ff66;
+}
+
+@font-face {
+  font-family: 'Triumvirate';
+  src: url('/fonts/triumvirate.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Butter Sweet';
+  src: url('/fonts/buttersweet.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gendis Body';
+  src: url('/fonts/gendis.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heroic Condensed';
+  src: url('/fonts/heroic.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Grillmaster';
+  src: url('/fonts/grillmaster.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quiet Sickless';
+  src: url('/fonts/signature.otf') format('opentype');
+  font-display: swap;
+}
